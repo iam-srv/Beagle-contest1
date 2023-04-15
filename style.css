@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+   
+}
+body{
+
+ padding:50px ;
+
+ 
+}
+
+  /* nav */
+nav {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  font-size:x-large;
+  gap: 15px;
+  padding :  20px;
+ margin-bottom: 10px;
+}
+nav a{
+   color: #000000;
+}
+  
+ /* section1 */
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+.images a {
+  color : #000000;
+}
+
+
+/* section3 */
+.trivia {
+
+
+  padding: 5px;
+}
+.trivia h1 {
+margin-bottom: 20px;
+}
+.trivia div {
+  margin-left: 20px;
+}
+.trivia li {
+  padding: 5px 0;
+}
